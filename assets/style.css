@@ -959,7 +959,6 @@ summary {
 }
 
 .footer-logo img {
-  display: block;
   width: 220px;
   height: auto;
 }
@@ -971,11 +970,11 @@ summary {
 }
 
 .nrf-logo {
-  height: 54px;
+  height: 56px;
 }
 
 .bk-logo {
-  height: 62px;
+  height: 56px;
 }
 
 @media (max-width: 780px) {
