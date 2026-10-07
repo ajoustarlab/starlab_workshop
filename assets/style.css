@@ -975,11 +975,11 @@ summary {
 }
 
 .footer-logos .nrf-logo {
-  height: 68px !important;
+  height: 100px !important;
 }
 
 .footer-logos .bk-logo {
-  height: 68px !important;
+  height: 100px !important;
 }
 
 @media (max-width: 780px) {
