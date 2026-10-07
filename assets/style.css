@@ -943,3 +943,67 @@ summary {
   font-weight: 900;
   vertical-align: 0.06em;
 }
+.footer-inner {
+  grid-template-columns: 1fr auto;
+}
+
+.footer-logos {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  flex-wrap: wrap;
+}
+
+.footer-logos .footer-logo {
+  grid-column: auto;
+}
+
+.footer-logo img {
+  display: block;
+  width: 220px;
+  height: auto;
+}
+
+.partner-logo {
+  display: block;
+  width: auto;
+  object-fit: contain;
+}
+
+.nrf-logo {
+  height: 54px;
+}
+
+.bk-logo {
+  height: 62px;
+}
+
+@media (max-width: 780px) {
+  .footer-logos {
+    gap: 26px;
+  }
+
+  .footer-logo img {
+    width: 190px;
+  }
+
+  .nrf-logo {
+    height: 46px;
+  }
+
+  .bk-logo {
+    height: 52px;
+  }
+}
+
+@media (max-width: 560px) {
+  .footer-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-logos {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+  }
+}
